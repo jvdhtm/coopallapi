@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_global_components",
+  "info": {
+    "name": "Component",
+    "icon": "puzzle-piece"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "details": {
+      "type": "json"
+    }
+  }
+}

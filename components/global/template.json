@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_global_templates",
+  "info": {
+    "name": "template",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

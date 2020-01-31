@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_global_pages",
+  "info": {
+    "name": "Page",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Components": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.component"
+    }
+  }
+}

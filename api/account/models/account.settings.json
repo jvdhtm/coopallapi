@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "accounts",
+  "info": {
+    "name": "Account"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "account_users": {
+      "collection": "account-user",
+      "via": "account"
+    },
+    "pages": {
+      "via": "account",
+      "collection": "page"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "account_users",
+  "info": {
+    "name": "account user"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "confirmed": {
+      "type": "boolean"
+    },
+    "account": {
+      "via": "account_users",
+      "model": "account"
+    }
+  }
+}

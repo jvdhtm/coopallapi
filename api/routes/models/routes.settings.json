@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "routes",
+  "info": {
+    "name": "route"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "redirectpath": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "boolean"
+    }
+  }
+}

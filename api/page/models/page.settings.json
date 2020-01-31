@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "template": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.template"
+    },
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.page"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "site": {
+      "via": "pages",
+      "model": "site"
+    },
+    "account": {
+      "model": "account",
+      "via": "pages"
+    },
+    "route": {
+      "model": "routes"
+    }
+  }
+}
